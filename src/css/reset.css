@@ -1,4 +1,10 @@
 /* Reset styles */
+body {
+  font-family: 'Inter', sans-serif;
+  color: #fbfbfb;
+  background-color: #fbfbfb;
+}
+
 h1,
 h2,
 h3,
@@ -22,6 +28,7 @@ ul {
 a {
   color: currentColor;
   text-decoration: none;
+  color: rgb(251, 251, 251);
 }
 
 button {
