@@ -33,6 +33,13 @@ a {
 
 button {
   cursor: pointer;
+  border: none;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
 }
 
 img {
