@@ -47,6 +47,13 @@
   line-height: 1.3;
   text-transform: uppercase;
 }
+
+.footer-item-link:hover,
+.footer-item-link:focus {
+  color: #1b414b;
+  background-color: #fbfbfb;
+}
+
 .footer-social-list {
   display: flex;
   margin-bottom: 40px;
@@ -56,6 +63,11 @@
 .footer-social-item-icon {
   fill: #fbfbfb;
   stroke: transparent;
+}
+
+.footer-social-item-icon:hover,
+.footer-social-item-icon:focus {
+  fill: #fbfbfbcc;
 }
 
 .footer-description {
