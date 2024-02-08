@@ -5,7 +5,7 @@
   padding: 20px 0;
   position: absolute;
   top: 0;
-  transition: translateY(50%);
+  transform: translateY(0);
 }
 .header-container {
   width: 335px;
@@ -20,13 +20,14 @@
   align-items: center;
   position: relative;
 }
-.header-nav {
-}
+
 .header-nav-logo {
   font-weight: 500;
   font-size: 14px;
   letter-spacing: -0.03em;
   color: #1b414b;
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
 }
 .header-nav-list {
   display: none;
@@ -47,6 +48,8 @@
   position: absolute;
   right: 0;
   transform: translateX(-50%);
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
 }
 .header-button-open {
   stroke: #1b414b;
