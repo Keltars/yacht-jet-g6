@@ -5,6 +5,7 @@
     background-size: cover;
     padding-top: 260px;
     padding-bottom: 243px;
+    position: relative;
 }
 
 @media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
