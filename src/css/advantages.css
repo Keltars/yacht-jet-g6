@@ -8,6 +8,10 @@
   justify-content: center;
 }
 
+.adv-wrap {
+  margin: 0 auto;
+}
+
 .adv-list {
   max-width: 335px;
   width: 100%;
@@ -67,10 +71,6 @@
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 90px 32px;
-  }
-
-  .adv-wrap {
-    margin: 0 auto;
   }
 
   .adv-list-item {
