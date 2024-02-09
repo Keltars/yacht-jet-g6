@@ -128,7 +128,9 @@ p {
 
 .benetti {
     width: 140px;
-
+}
+.benetti-span {
+    display: none;
 }
 .benetti::after {
     content: "...";
@@ -163,8 +165,6 @@ p {
     letter-spacing: -0.02em;
     color: #fbfbfb;
     background-color: transparent;
-    width: 140px;
-    height: 46px;
     border: 1px solid rgba(251, 251, 251, 0.35);
     border-radius: 15px;
     display: flex;
@@ -214,15 +214,14 @@ p {
     width: 140px;
     overflow: hidden;
 }
-    .price-card-button {
-        font-size: 18px;
-        width: 180px;
-        height: 52px;
-        padding: 16px 40px;
+
+.price-card-button {
+    font-size: 18px;
+    padding: 16px 40px;
     }
 }
 
-@media screen and (min-width:1180px) {
+@media screen and (min-width:1280px) {
     .price-card-container {
         padding: 150px 50px;
     }
@@ -249,11 +248,14 @@ p {
         display: flex;
     }
 .benetti {
-    min-width: 170px;
+    width: 170px;
 }
-        .price-card-button {
-            margin-bottom: 50px;
-        }
+.benetti-span {
+    display: flex;
+}
+    .price-card-button {
+        margin-bottom: 50px;
+    }
 }
 
 @media screen and (min-width:1380) {
