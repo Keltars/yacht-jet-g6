@@ -57,7 +57,9 @@ p {
     justify-content: center;
 }
 
-.price-card-container {}
+.price-card-container {
+    padding-top: 80px;
+}
 
 .price-card-head {
     font-weight: 500;
@@ -182,13 +184,15 @@ p {
 }
 
 @media screen and (min-width:768px) {
-
-    .price-card-head {
-        width: 714px;
-        font-size: 48px;
-        text-align: center;
-        margin-bottom: 75px;
-    }
+.price-card-container {
+    padding-top: 150px;
+}
+.price-card-head {
+    width: 714px;
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 75px;
+}
 
     .price-card-list {
         gap: 32px;
@@ -203,11 +207,11 @@ p {
         display: flex;
     }
 
-    .luxury-text {
-        font-weight: 400;
-        font-size: 13px;
-        color: #040306;
-        opacity: 0.4;
+.luxury-text {
+    font-weight: 400;
+    font-size: 13px;
+    color: #040306;
+    opacity: 0.4;
     }
 
 .benetti {
@@ -222,43 +226,35 @@ p {
 }
 
 @media screen and (min-width:1280px) {
-    .price-card-container {
-        padding: 150px 50px;
-    }
 
-    .price-card-head {
-        min-width: 714px;
-        font-size: 48px;
-        text-align: center;
-    }
+.price-card-head {
+    min-width: 714px;
+    font-size: 48px;
+    text-align: center;
+}
 
     .price-card-list {
         gap: 25px;
     }
 
-    .price-card-item {
-        width: calc((100% - 50px) / 3);
-    }
+.price-card-item {
+    width: calc((100% - 50px) / 3);
+}
 
-    .yacht-img {
-        margin-bottom: 30px;
-    }
+.yacht-img {
+    margin-bottom: 30px;
+}
 
-    .yacht-card-belle {
-        display: flex;
-    }
+.yacht-card-belle {
+    display: flex;
+}
 .benetti {
     width: 170px;
 }
 .benetti-span {
     display: flex;
 }
-    .price-card-button {
-        margin-bottom: 50px;
-    }
+.price-card-button {
+    margin-bottom: 50px;
 }
-
-@media screen and (min-width:1380) {
-    .price-card-container {
-    }
 }
