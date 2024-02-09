@@ -225,7 +225,7 @@ p {
     }
 }
 
-@media screen and (min-width:1280px) {
+@media screen and (min-width:1180px) {
 
 .price-card-head {
     min-width: 714px;
