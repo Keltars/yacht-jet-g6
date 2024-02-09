@@ -6,6 +6,7 @@
   position: absolute;
   top: 0;
   transform: translateY(0);
+  z-index: 999;
 }
 .header-container {
   width: 335px;
@@ -120,6 +121,8 @@
   .header-social-item {
     fill: #1b414b;
     transition: fill 250ms ease-in-out;
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
   }
   .header-social-item:hover,
   .header-social-item:focus {
@@ -128,9 +131,6 @@
 
   .header-button {
     display: none;
-  }
-  .header-button-open {
-    fill: black;
   }
 }
 
