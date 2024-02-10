@@ -1,20 +1,18 @@
-const elements = {
-    form : document.querySelector('.form-rent-yacht'),
-}
-form.addEventListener("submit", handlerSubmit);
+const regicterForm = document.querySelector('.form-rent-yacht');
+regicterForm.addEventListener("submit", handlerSubmit);
 
 function handlerSubmit(event) {
     event.preventDefault();
-    const formElement = event.target;
-    const name = formElement.username.value;
-    const email = formElement.useremail.value;
-    const phone = formElement.usertel.value;
+    const formElement = event.currentTarget;
+    const username = formElement.elements.username.value;
+    const useremail = formElement.elements.useremail.value;
+    const usertel = formElement.elements.usertel.value;
+    const usercomment = formElement.elements.usercomment.value;
 
-
-    if (login === "" || email === "" || phone === "") {
+    if (username === "" || useremail === "" || usertel === "" || usercomment === "") {
         return console.log('Please fill out the form');
     }
 
-    console.log(`Login: ${name.value} , Email: ${email.value} , Phone: ${phone.value}`);
-    form.reset();
+    console.log(`Name: ${username} , Email: ${useremail} , Phone: ${usertel} , Comment: ${usercomment}`);
+    formElement.reset();
 }
