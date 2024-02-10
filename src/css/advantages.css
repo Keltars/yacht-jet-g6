@@ -8,6 +8,10 @@
   justify-content: center;
 }
 
+.adv-wrap {
+  margin: 0 auto;
+}
+
 .adv-list {
   max-width: 335px;
   width: 100%;
@@ -55,7 +59,6 @@
 }
 
 .adv-img {
-  background-image: url(./img/advantages/advantages-mob.jpg);
   border-radius: 24px;
   margin: 0 20px;
   margin-top: 20px;
@@ -68,10 +71,6 @@
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 90px 32px;
-  }
-
-  .adv-wrap {
-    margin: 0 auto;
   }
 
   .adv-list-item {
