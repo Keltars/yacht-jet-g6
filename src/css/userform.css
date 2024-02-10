@@ -150,7 +150,9 @@
         width: 658px;
         height: 536px;
     }
-    
+    .send-form-button{
+        margin-bottom: 0;
+    }
 }
 @media screen and (min-width:1440px) {
     .img-section-userform{
