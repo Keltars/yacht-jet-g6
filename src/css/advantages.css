@@ -1,6 +1,3 @@
-.adv-sec {
-}
-
 .adv-sec > .container {
   background-color: #0e1823;
   display: flex;
@@ -13,12 +10,13 @@
 }
 
 .adv-list {
+  display: flex;
+  flex-direction: column;
   max-width: 335px;
   width: 100%;
   background-color: rgb(27, 65, 75);
   border-radius: 24px;
   padding: 80px 20px;
-  margin: 0 20px;
 }
 
 .adv-list-item:not(:last-child) {
@@ -60,7 +58,6 @@
 
 .adv-img {
   border-radius: 24px;
-  margin: 0 20px;
   margin-top: 20px;
 }
 
@@ -68,6 +65,7 @@
   .adv-list {
     max-width: 704px;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 90px 32px;
@@ -92,10 +90,10 @@
 @media screen and (min-width: 1280px) {
   .adv-wrap {
     display: flex;
-    padding: 0 50px;
     gap: 32px;
   }
   .adv-list {
+    flex-direction: row;
     max-height: 424px;
     margin: 0;
   }
