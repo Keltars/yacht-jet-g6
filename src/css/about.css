@@ -7,9 +7,9 @@ body {
 }
 .about-container {
   max-width: 375px;
-  width: 100vh;
   display: flex;
   flex-direction: column;
+  padding: 0 20px;
 }
 
 .about-descr {
@@ -32,7 +32,6 @@ body {
 .about-text {
   display: flex;
   flex-direction: column;
-  gap: 20px;
 }
 .about-first-par {
   font-weight: 400;
