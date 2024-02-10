@@ -133,6 +133,7 @@ p {
 }
 .benetti-span {
     display: none;
+    margin-left: 5px;
 }
 .benetti::after {
     content: "...";
