@@ -118,7 +118,10 @@ p {
   width: 140px;
 }
 .benetti-span {
-  display: none;
+
+    display: none;
+    margin-left: 5px;
+
 }
 .benetti::after {
   content: '...';
