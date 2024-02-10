@@ -96,9 +96,7 @@
     justify-content: center;
     background-color: rgba(27, 65, 75, 0.5);
     border-radius: 8px;
-    width: 91px;
-    height: 40px;
-    transition: background-color 250ms ease-in-out;
+    transition: all 250ms ease-in-out;
   }
 
   .header-nav-item:hover,
@@ -113,6 +111,7 @@
     line-height: 130%;
     letter-spacing: 0em;
     text-transform: uppercase;
+    padding: 15px 24px;
   }
   .header-social-list {
     display: flex;
