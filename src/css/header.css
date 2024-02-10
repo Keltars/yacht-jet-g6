@@ -120,7 +120,7 @@
   }
   .header-social-item {
     fill: #1b414b;
-    transition: fill 250ms ease-in-out;
+    transition: fill 25s ease-in-out;
     -webkit-tap-highlight-color: transparent;
     outline: none;
   }
