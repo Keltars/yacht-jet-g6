@@ -2,14 +2,13 @@
 
 .header {
   width: 100%;
-  padding: 20px 0;
+  padding: 20px 20px;
   position: absolute;
   top: 0;
   transform: translateY(0);
   z-index: 999;
 }
 .header-container {
-  min-width: 300px;
   height: 42px;
   padding: 0 20px;
   margin: 0 auto;
