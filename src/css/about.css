@@ -98,5 +98,6 @@ body {
   }
   .about-text {
     width: 354px;
+    gap: 20px;
   }
 }

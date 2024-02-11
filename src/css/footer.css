@@ -93,6 +93,12 @@
   letter-spacing: 0.03em;
 }
 
+@media screen and (max-width: 320px) {
+  .footer-logo {
+    margin-right: 10px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .footer > .container {
     padding: 0 16px;
