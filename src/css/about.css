@@ -1,7 +1,3 @@
-body {
-  background-color: #0e1823;
-}
-
 .about-sec > .about-container {
   background-color: #0e1823;
 }
@@ -32,6 +28,7 @@ body {
 .about-text {
   display: flex;
   flex-direction: column;
+  gap: 20px;
 }
 .about-first-par {
   font-weight: 400;
@@ -98,6 +95,5 @@ body {
   }
   .about-text {
     width: 354px;
-    gap: 20px;
   }
 }
